@@ -16,15 +16,14 @@
 <body>
     <section class="nav-bar-section">
 
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar scroll</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="#">Navbar</a>
+
                 </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -32,11 +31,11 @@
                             <a class="nav-link" href="#">Link</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Link
+                                Dropdown
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li>
@@ -46,27 +45,49 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                         </li>
                     </ul>
-                    <div class="fs-1 text-body-emphasis-dark black border border-dark border-rounded" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><i
-                            class="bi bi-list"></i></div>
 
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                        aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            ...
-                        </div>
-                    </div>
+                </div>
+            </div>
+
+            <div class="fs-1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><i class="bi bi-list"></i></div>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    ...
                 </div>
             </div>
         </nav>
 
+    </section>
+    <section class="hero-section  bg-primary align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col col-md-6 col-lg-6 ">
+                    <div class="header-content">
+                        <h1>Corporate & Business Site Template by Ayro UI.</h1>
+                        <p>We are a digital agency that helps brands to achieve their business outcomes. We see
+                            technology as a tool to create amazing things.</p>
+                        <div class="btn-grup">
+                            <button class="">GET STARTED</button>
+                            <button class="">Watch Intro</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 py-5 ">
+                    <img class="img-fluid rounded-2" src="/Images/3.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
