@@ -20,3 +20,41 @@
 .navbar-nav ul img:hover{
   color: blue !important;
 }
+.nav button:hover{
+  color: blue !important;
+}
+.nav button:focus{
+  background-color: blue !important;
+  color: white !important;
+}
+.card p{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.round-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  
+}
+
+.round-circle:hover {
+  background-color: #0d6efd;
+}
+
+.round-circle i {
+  color: #0d6efd;
+  transition: color 0.3s;
+}
+
+.round-circle:hover i {
+  color: #fff;
+}
+.box-shadow .card:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
