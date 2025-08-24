@@ -1,36 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: "Roboto Serif", serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Serif", serif;
 }
+
 .navbar-nav .opacity-color {
-  color: rgba(255, 255, 255, 0.6) !important; 
+  color: rgba(255, 255, 255, 0.6) !important;
 }
+
 .navbar-nav .nav-link:hover {
-  color: #fff !important; 
+  color: #fff !important;
 }
-.navbar-nav ul li a img{
+
+.navbar-nav ul li a img {
   height: 40px;
   width: 40px;
-  
+
 }
-.navbar-nav ul img:hover{
+
+.navbar-nav ul img:hover {
   color: blue !important;
 }
-.nav button:hover{
+
+.nav button:hover {
   color: blue !important;
 }
-.nav button:focus{
+
+.nav button:focus {
   background-color: blue !important;
   color: white !important;
 }
-.card p{
+
+.card p {
   font-size: 16px;
   letter-spacing: 1px;
 }
+
 .round-circle {
   width: 60px;
   height: 60px;
@@ -40,7 +48,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s;
-  
+
 }
 
 .round-circle:hover {
@@ -55,6 +63,30 @@
 .round-circle:hover i {
   color: #fff;
 }
-.box-shadow .card:hover{
+
+.box-shadow .card:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.common-border {
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+.box-hover:hover{
+  background-color: #0d6efd;
+  color: #fff !important;
+}
+.box-shadow-2:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+  .tab-content img {
+    width: 300px;
+    padding: 10px;
+  }
 }
