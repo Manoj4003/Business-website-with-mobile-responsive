@@ -79,9 +79,22 @@
 .box-hover:hover{
   background-color: #0d6efd;
   color: #fff !important;
+  
 }
 .box-shadow-2:hover{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+}
+.card-body-1{
+  height: 80px;
+}
+.card-img p{
+  position: absolute;
+}
+.box-hover-3:hover{
+  background-color: #0d6efd;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  
 }
 
 @media (min-width:320px) and (max-width:480px) {
@@ -89,4 +102,5 @@
     width: 300px;
     padding: 10px;
   }
+ 
 }
