@@ -98,6 +98,17 @@
   transition: all 0.3s ease-in-out;
   
 }
+.card-part .card {
+  position: relative;
+}
+.card-part .card-body:hover{
+  position: absolute;
+  width: 100%;
+  transform: translateY(150px);
+  transition: all 0.5s ease-in;
+  background-color: #0d6efd !important;
+
+}
 
 @media (min-width:320px) and (max-width:480px) {
   .tab-content img {
