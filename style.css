@@ -67,9 +67,11 @@
 .box-shadow .card:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-.portfolio-page .nav-link{
+
+.portfolio-page .nav-link {
   border: none;
 }
+
 .common-border {
   border: 1px solid blue;
   border-radius: 15px;
@@ -78,42 +80,60 @@
   margin: 0 auto;
 
 }
-.box-hover:hover{
-  background-color: #0d6efd;
+
+.box-hover:hover {
+  background-color: #0d6efd !important;
   color: #fff !important;
-  
+
 }
-.box-shadow-2:hover{
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+
+.box-shadow-2:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
 }
-.card-body-1{
+
+.card-body-1 {
   height: 80px;
 }
-.card-img p{
+
+.card-img p {
   position: absolute;
 }
-.box-hover-3:hover{
-  background-color: #0d6efd;
+
+.box-hover-3:hover {
+  background-color: #0d6efd !important;
   color: #fff;
   transition: all 0.3s ease-in-out;
+
+}
+
+/* Our team part */
+.solution-for-business{
+  background-image: url('/Images/overlay.png');
+}
+.box-hover-4:hover{
+  background-color: #fff !important;
+  color: blue !important;
   
 }
-.card-part .card {
-  position: relative;
+/*  */
+.card-zoom-img p img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  
 }
-.card-part .card-body:hover{
-  position: absolute;
-  width: 100%;
-  transform: translateY(150px);
-  transition: all 0.5s ease-in;
-  background-color: #0d6efd !important;
-
+.card-zoom-img .zoom{
+  background-color: #0d6efd;
+  border-radius: 12px;
+  font-size: 10px !important;
+  color: #fff;
+  margin-right: -25px !important;
+  margin-top: 85px !important;
 }
-
 @media (min-width:320px) and (max-width:480px) {
   .tab-content img {
     width: 300px;
     padding: 10px;
   }
- 
+
 }
