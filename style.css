@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 * {
   padding: 0%;
@@ -68,22 +68,26 @@
 .box-shadow .card:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
+
 /*  */
-.portfolio-page ul li a{
+.portfolio-page ul li a {
   padding: 10px;
   margin: 10px;
   list-style-type: none;
   text-decoration: none !important;
 
 }
-.portfolio-page a:focus{
+
+.portfolio-page a:focus {
   border-bottom: 5px solid blue;
 }
-.portfolio-page ul li a:hover{
-border-bottom: 5px solid blue;
+
+.portfolio-page ul li a:hover {
+  border-bottom: 5px solid blue;
 
 }
-.tab-content img:hover{
+
+.tab-content img:hover {
   opacity: 0.7;
 }
 
@@ -124,22 +128,31 @@ border-bottom: 5px solid blue;
 }
 
 /* Our team part */
-.solution-for-business{
+.solution-for-business {
   background-image: url('/Images/overlay.png');
 }
-.box-hover-4:hover{
+
+.box-hover-4:hover {
   background-color: #fff !important;
   color: blue !important;
-  
+
 }
-/*  */
-.card-zoom-img p img{
+
+/* Latest New Section */
+.card-zoom-img p img {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  
 }
-.card-zoom-img .zoom{
+
+.card-img-top:hover {
+  animation: zoom 0.6s ease-in-out forwards;
+  transform: scale(1.05);
+}
+
+
+
+.card-zoom-img .zoom {
   background-color: #0d6efd;
   border-radius: 12px;
 
@@ -147,39 +160,56 @@ border-bottom: 5px solid blue;
   margin-right: -25px !important;
   margin-top: 85px !important;
 }
+
 /*  */
-.clients-cmpy img{
+.clients-cmpy img {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   margin: 10px;
   padding: 50px;
-  height: 130px !important ;
+  height: 130px !important;
   width: 245px !important;
-   
+
 }
- .animated-img img:hover {
-      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
-      transform: translateY(-10px) !important;
-    
-    }
-    /*  */
-    .contact-list-item{
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
-        /* width: 25% !important; */
-    }
-    .contact-form-wrapper input,
-    .contact-form-wrapper textarea
-   {
-      width: 90%;
-      outline: none;
-      padding: 10px;
-      margin: 10px;
-      border: 1px solid rgb(236, 226, 226) !important;
-      border-radius: 10px; 
+
+.animated-img img {
+  transition: transform 0.4s ease-in-out;
+  /* smooth & very slow */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
 }
-.contact-form-wrapper textarea{
+
+.animated-img img:hover {
+  transform: translateY(-5px);
+
+
+}
+
+.hover-text:hover {
+  color: #0d6efd !important;
+}
+
+
+
+/*  */
+.contact-list-item {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px !important;
+  /* width: 25% !important; */
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+  width: 90%;
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(236, 226, 226) !important;
+  border-radius: 10px;
+}
+
+.contact-form-wrapper textarea {
   width: 95% !important;
 }
-.rounded-circle-2{
+
+.rounded-circle-2 {
   width: 40px;
   height: 40px;
   /* border-radius: 200%; */
@@ -191,26 +221,30 @@ border-bottom: 5px solid blue;
   justify-content: center;
   transition: all 0.3s;
 }
+
 /* Customer-reviews */
-.round-icon img{
+.round-icon img {
   height: 80px;
   width: 80px;
   border-radius: 50%;
 }
+
 @media (min-width:320px) and (max-width:480px) {
   .tab-content img {
     width: 300px;
     padding: 10px;
   }
-  .contact-list-item{ 
-        width: 90% !important;
-        margin-left: 20px;
-    }
-    .card-zoom-img .zoom {
+
+  .contact-list-item {
+    width: 90% !important;
+    margin-left: 20px;
+  }
+
+  .card-zoom-img .zoom {
     margin-top: -50px !important;
     margin-left: -80px;
-    }
-    
-  
+  }
+
+
 
 }
