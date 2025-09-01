@@ -7,6 +7,9 @@
   font-family: "Roboto Serif", serif;
 
 }
+section {
+  scroll-margin-top: 80px; /* equal to your navbar height */
+}
 
 /* Nav bar part */
 .navbar-nav .opacity-color {
@@ -28,16 +31,18 @@
 }
 
 
-.offcanvas .nav-link i:hover {
-  background: #0d6efd;
-  color: #fff;
+.nav-link i:hover {
+  background: #0d6efd !important;
+  color: #fff !important;
   border-color: #0d6efd;
 }
 
 .navbar-nav i {
   height: 150px;
 }
-
+.navbar-nav a:hover{
+  color: #fff !important;
+}
 .navbar-nav ul img:hover {
   color: blue !important;
 }
@@ -55,6 +60,7 @@
   font-size: 16px;
   letter-spacing: 1px;
 }
+
 /* Service Part */
 .round-circle {
   width: 60px;
@@ -284,6 +290,41 @@
   width: 80px;
   border-radius: 50%;
 }
+
+/* Footer Part */
+
+.scroll-top a:hover{
+  background-color: black !important;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
+}
+.fixed-img {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;  
+  right: 20px;   
+  z-index: 999; 
+  background-color: #fff;
+  width: 5%;
+  height:30px;
+  margin-left: 10px;  /* stays on top of content */
+}
+
+.fixed-img img {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+}
+
+.fixed-img:hover{
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
+}
+
+
+
+
+
 
 @media (min-width:320px) and (max-width:480px) {
   .tittle-part a {
